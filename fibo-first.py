@@ -1,8 +1,8 @@
-def fibo(n):
+def fibo(k):
 
-    if n < 2:
-        return n
-    return fibo(n - 1) + fibo(n - 2)
+    if k < 2:
+        return k
+    return fibo(k - 1) + fibo(k - 2)
 
 if __name__ == "__main__":
     print(fibo(10))
